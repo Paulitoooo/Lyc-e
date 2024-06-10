@@ -1,0 +1,31 @@
+@font-face {
+	font-family: 'Pulang';
+	src: url('../fontes/Pulang.ttf');
+}
+body{
+	background-color:#E53067;
+}
+a{
+	text-decoration:none;
+}
+.titre_accueil{
+	height:40vh;
+	margin-top:30vh;	
+	display:table;
+	vertical-align:middle;
+}
+.titre_texte{
+	color:white;		
+	font-family:'Pulang';
+	padding-left:1em;
+	line-height:1.5em;
+	height:3em;	
+	font-size:9vh;
+	display:table-cell;
+    vertical-align: middle;
+}
+.logo{
+	margin-left:10vw;	
+	height:40vh;	
+	display:table-cell;		
+}

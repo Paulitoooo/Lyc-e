@@ -1,0 +1,85 @@
+.titre{
+	color:red;
+}
+.acc{
+	font-family:"switchone";
+}
+.lelievre{
+	font-size:10;
+	position:relative;
+	left:590px;
+}
+.lievre{
+	position:relative;
+	left:100;
+}
+.tortue{
+	position:relative;
+	left:850px;
+	bottom:340px;
+}
+.VS{
+	position:relative;
+	bottom:610px;
+	left:570px;
+}
+.pablo{
+	position:relative;
+	left:250;
+	font-size:2em;
+	font-weight:bold;
+}
+.ouo{
+	
+	position:relative;
+	left:950;
+	bottom:340px;
+	font-size:2em;
+	font-weight:bold;
+}
+.bt{
+	font-family:"switchone";
+	width:20em;
+	background-color:#0CE;
+	color:white;
+	border-radius:1em;
+	padding:0.5em;
+	text-align:center;
+	position:relative;
+	bottom:440px;
+	left:500px;
+}
+.bt:hover{
+	background-color:#EC0;
+	color:red;
+}
+.start{
+	font-family:"switchone";
+	font-size:1.2em;
+	width:25em;
+	background-color:#0CE;
+	color:white;
+	border-radius:1em;
+	padding:0.5em;
+	text-align:center;
+	position:relative;
+	bottom:450px;
+	left:420px;
+}
+.start:hover{
+	background-color:#EC0;
+	color:red;
+}
+@font-face{
+	font-family:switchone;
+	src:url(SwitchOneDemoItalic.ttf);
+}
+.babactheo{
+	position:relative;
+	left:500;
+}
+.gooo{
+	position:relative;
+	left:500px;
+	color:blue;
+}

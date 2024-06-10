@@ -1,0 +1,100 @@
+<html>
+<head>
+	<meta charset="UTF-8" />
+	<title>Évaluation JS / php</title>
+	<link rel="stylesheet" href="css/monStyle.css" />
+	<script src="scripts/monScript.js"></script>
+</head>
+<body>
+<div id="t1">Souriez !</div>
+<br>
+<div class="texte t2">
+<br>
+
+<div class="t0">Cet exercice consiste à modifier les différents fichiers qui constituent ce projet pour 
+que l'appui sur chacun des 5 boutons produise l'effet indiqué.<br>
+<u>Aucun nouveau fichier n'est à créer</u>.<br/>
+Pour tester la dernière question, vous devrez déposer votre projet dans votre répertoire 
+personnel (site du lycée).<br>
+Tous les documents sont autorisés ainsi que les recherches sur Internet.</div><br>
+
+<div class="t0 tc">A la fin de la séance, vous devrez recompresser tous les éléments du projet dans un 
+fichier zip que vous déposerez sur Moodle.</div>
+
+<br><br>
+
+<div class="t0"><i>
+Dans le monde entier, le smiley s'affiche sur les vêtements, les écrans ou les murs des villes. 
+Il fête aujourd'hui ses 50 ans. Le logo a été imaginé en France, au début des années 70. 
+Franklin Loufrani est journaliste quand il le dessine pour la première fois. Son idée connait 
+la consécration en 1972, quand il convainc le quotidien France Soir d'afficher son logo en Une, 
+afin d'inciter les Français à l'optimisme.<br>
+Le symbole accompagnera ensuite toutes les bonnes nouvelles du journal.</i>
+</div>
+
+<br><br>
+
+<button onclick="Q1()" class="BL"> Question 1 </button><div class="BLR">Le texte du titre est modifié&nbsp;: 
+«&nbsp;Histoire du Smiley&nbsp;» écrit en noir (à la place de «&nbsp;Souriez&nbsp;!&nbsp;» qui est 
+en rouge) avec la même police de caractères.</div>
+<br>
+
+<button onclick="Q2()" class="BL"> Question 2 </button><div class="BLR">L'image d'un smiley doit 
+apparaître ci-dessous. Au survol de la souris le smiley doit faire un clin d'œil (fichier smiley2.svg).</div>
+<div id="smile"> </div>
+
+<br>
+
+<div class="tt">Les smileys se reproduisent en grand nombre</div>
+
+<div class="t0">Des observateurs ont constaté que le nombre de smileys diférents augmentait de 20% 
+tous les mois (par rapport au mois précédent).
+<div class="bb">
+Nombre de smileys au mois 1 (départ)&nbsp;: 
+<input type="number" id="NS" size="4" min="100" max="1000" value="200" class="i" />
+&nbsp;&nbsp;&nbsp;Nombre de mois&nbsp;: 
+<input type="number" id="NM" size="2" min="2" max="60" value="12" class="i" /></div>
+Ce que doit produire l'appui sur le bouton 3 : indiquer le nombre de smileys chaque mois 
+sur la durée indiquée ci-dessus en partant du nombre initial choisi.</div>
+<br>
+<button onclick="Q3()" class="BL"> Question 3 </button><div class="BLR">Afficher le nombre de 
+smileys chaque mois sur la période indiquée.<br>
+<div id="smi"></div>
+</div>
+
+<br>
+
+<button onclick="Q4()"> Question 4 </button> Afficher 
+<input type="number" id="SMILE" size="2" min="2" max="20" value="5" class="i" />
+ 😊 dans une fenêtre surgissante.<br>
+<br>
+
+<button onclick="Q5()"> Question 5 </button> 
+ On analyse les résponses et on indique le score dans le cadre.<br>
+ <br>
+ <div class="t3">
+ Le smiley a :<br>
+ <input name="ag" type="radio" value="10" id="10"><label for="10"> 10 ans</label><br/>
+ <input name="ag" type="radio" value="20" id="20"><label for="20"> 20 ans</label><br/>
+ <input name="ag" type="radio" value="50" id="50"><label for="50"> 50 ans</label><br/>
+ <input name="ag" type="radio" value="100" id="100"><label for="100"> 100 ans</label><br/>
+ </div>
+ <br>
+<div class="t3">
+ Il a été inventé par :<br>
+ <input name="inve" type="radio" value="B" id="B"><label for="B"> Un belge</label><br/>
+ <input name="inve" type="radio" value="E" id="E"><label for="E"> Un anglais</label><br/>
+ <input name="inve" type="radio" value="F" id="F"><label for="F"> Un français</label><br/>
+ <input name="inve" type="radio" value="A" id="A"><label for="A"> Un américain</label><br/>
+ </div>
+ <br>
+ <div class="t3">
+ Nom du créateur :<br>
+ <input name="crea" type="text" id="crea" size="23" class="i"/><br/>
+ </div>
+<br>
+<div class="t4" id="sco">Score</div>
+<br><br>
+</div>
+</body>
+</html>

@@ -1,0 +1,89 @@
+@font-face {
+	font-family: 'rock';
+	src: url('../fontes/rock.ttf');
+}
+.t0{
+	line-height:1.5em;
+}
+#t1{	
+	position:relative;
+	top:2rem;	
+	width:80%;
+	min-width:48rem;
+	background-color: #FFF000;	
+	font-family:rock;
+	font-size:4rem;
+	text-align:center;
+	line-height:3rem;
+	color:#C00;
+	padding:0.2em;
+	margin:auto;	
+	border-radius:1em;	
+}
+.t2{	
+	position:relative;
+	top:1rem;
+}
+.tc{
+	background-color:#59D;
+	font-weight:bolder;
+	color:white;
+	padding:0.5em;
+}
+.tt{
+	font-family:rock;
+	font-size:3rem;	
+	color:#C00;
+}
+.t3{
+	width:15rem;
+	margin:auto;
+	line-height:1.5em;
+	background-color:#EEE;
+	padding:1rem;
+}
+.t4{
+	font-family:rock;
+	font-size:2rem;	
+	text-align:center;
+	color:#C00;
+	border:solid;
+}
+.texte{
+	width:48rem;
+	margin:auto;
+	font-size:1.2rem;
+	font-family:arial;
+	text-align:justify;
+}
+button{
+	font-size:1.2rem;
+	font-family:arial;
+	cursor:pointer;	
+}
+.BL{
+	float:left;	
+}
+.BLR{
+	margin-left:6em;
+}
+.i{
+	font-size:1.2rem;
+	font-family:arial;
+}
+.bb{
+	background-color:#C00;
+	text-align:center;
+	color:white;
+	padding:0.2em;
+	margin:0.5em;
+	border-radius:1em;
+}
+img{
+	width:15em;
+	margin-left:10em;
+	padding:1em;
+}
+#table{
+	text-align:center;
+}

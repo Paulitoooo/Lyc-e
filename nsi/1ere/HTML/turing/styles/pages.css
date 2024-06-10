@@ -1,0 +1,82 @@
+@font-face {
+	font-family: 'Pulang';
+	src: url('../fontes/Pulang.ttf');
+}
+.titre{
+	color:#E53067;
+	font-size:3em;
+	font-family:'Pulang';
+	text-align:center;
+}
+.texte{
+	font-family:arial;
+	font-size:1.3em;
+	line-height:1.5em;
+	text-align:left,right;
+	max-width:25em;
+	
+}
+.lien{
+	width:25em;
+	font-family:arial;
+	font-size:1.1em;
+	margin:0.5em;
+	color:white;
+	background-color:#E53067;
+	shadow:3px;
+	border-radius:1em;
+}
+.lien:hover{
+	background-color:#1798EE;
+}
+.logo2{
+	width:5em;
+	margin-right:1em;
+	float:left;
+	margin-left:26em;
+	
+}
+.turing{
+	width:32.5em;
+}
+.texteturing{
+	font-family:arial;
+	font-size:1.3em;
+	line-height:1.5em;
+	text-align:left,right;
+	max-width:25em;
+	color:white;
+	background-color:black;
+}
+.lien2{
+	width:20em;
+	font-family:arial;
+	font-size:1.1em;
+	margin:0.5em;
+	color:white;
+	background-color:#E53067;
+	shadow:3px;
+	border-radius:1em;
+}
+.lien2:hover{
+		background-color:#1798EE;
+}
+.personnages{
+	color:#E53067
+}
+.beatles{
+	background-color:#E53067;
+	margin:1em;
+}
+.imgbeatles{
+	margin-right:3em;
+}
+.textebeatles{
+	color:white;
+	font-family:arial;
+	font-size:1.3em;
+	line-height:1.5em;
+	text-align:left,right;
+	max-width:25em;
+	max-width:45%;
+}

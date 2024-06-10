@@ -1,0 +1,39 @@
+.texte{	
+	position:relative;
+	max-width:40em;
+	left:300px;
+	font-family:"Arial";
+}
+.titre{
+	font-family:"Arial";
+	font-size:3em;
+	color:DarkOrange;
+	margin-bottom:1em;
+}
+.soustitre{
+	font-weight:bold;
+	color:white;
+	background-color:DarkOrange;
+	font-family:"Arial";
+	font-size:1.5em;
+	margin-bottom:1.5em;
+	margin-top:1.5em;
+	margin-left:20%
+}
+.soustitre2{
+	font-weight:bold;
+	color:white;
+	background-color:DarkOrange;
+	font-family:"Arial";
+	font-size:1.5em;
+	margin-bottom:1.5em;
+	margin-top:1.5em;
+}
+.resol{
+	font-style:italic;
+	margin-left:20%;
+}
+.image{
+	float:left;
+	width:20%;
+}
